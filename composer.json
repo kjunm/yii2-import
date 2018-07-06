@@ -1,0 +1,26 @@
+{
+  "name": "wim/yii2-import",
+  "description": "Yii 2 Import extension",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii",
+    "Import",
+    "yii2-Import"
+  ],
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "authors": [
+    {
+      "name": "wim",
+      "email": "1404397383@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "wim\\import\\": "src"
+    }
+  }
+}
